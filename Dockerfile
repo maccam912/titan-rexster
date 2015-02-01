@@ -17,6 +17,6 @@ EXPOSE 8182:8182
 EXPOSE 8183:8183
 EXPOSE 8184:8184
 
-RUN chmod +x /opt/titan/run.sh
+RUN chmod +x /opt/titan-0.5.3-hadoop2/run.sh
 
 CMD ["/bin/sh", "-e", "/opt/titan/run.sh"]
