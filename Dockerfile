@@ -1,7 +1,7 @@
 FROM dockerfile/java:latest
 
 #MAINTAINER Abhinav Pobbati <apobbati@codeblock.io>
-Matt Koski <maccam912@gmail.com>
+MAINTAINER Matt Koski <maccam912@gmail.com>
 
 WORKDIR /opt/titan-0.5.3-hadoop2
 
