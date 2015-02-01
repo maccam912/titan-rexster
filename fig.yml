@@ -1,11 +1,11 @@
 cassandra:
   image: spotify/cassandra
   ports:
-    - "31160:9160"
+    - "9160:9160"
 elasticsearch:
   image: dockerfile/elasticsearch
   ports:
-    - "31200:9200"
+    - "9200:9200"
 titan:
   image: maccam912/titan-rexster
   ports:
