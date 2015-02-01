@@ -7,7 +7,7 @@ elasticsearch:
   ports:
     - "31200:9200"
 titan:
-  image: apobbati/titan-rexster
+  image: maccam912/titan-rexster
   ports:
     - "8182:8182"
     - "8183:8183"
